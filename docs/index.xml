@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>ExampleSite</title>
+    <title>Techwizerd - Full Stack Developer - React, Python, Django</title>
     <link>https://techwizerd.com/</link>
-    <description>Recent content on ExampleSite</description>
+    <description>Recent content on Techwizerd - Full Stack Developer - React, Python, Django</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Thu, 18 Feb 2021 14:35:25 +0100</lastBuildDate><atom:link href="https://techwizerd.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -15,6 +15,24 @@
       <description>Hugo blog is becoming one of the most popular static site generators.
 The first time I used it, I was blown away by how easy it was to set up a blog on my local machine. It is also very easy to publish your hugo site to github Pages for free.
 In this tutorial, I am going to show you how to set up your hugo blog on Github Pages. We would be using this theme .</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://techwizerd.com/a/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://techwizerd.com/a/</guid>
+      <description>Shut up </description>
+    </item>
+    
+    <item>
+      <title>Search</title>
+      <link>https://techwizerd.com/search/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://techwizerd.com/search/</guid>
+      <description>search</description>
     </item>
     
   </channel>

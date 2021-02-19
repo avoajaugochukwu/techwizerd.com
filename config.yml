@@ -1,5 +1,5 @@
 baseURL: "https://techwizerd.com"
-title: ExampleSite
+title: Techwizerd - Full Stack Developer - React, Python, Django
 paginate: 5
 theme: PaperMod
 publishDir: "docs"
@@ -9,7 +9,7 @@ buildDrafts: false
 buildFuture: false
 buildExpired: false
 
-googleAnalytics: UA-123-45
+googleAnalytics: UA-91494440-1
 
 minify:
     disableXML: true
@@ -37,22 +37,22 @@ params:
     assets:
         # disableHLJS: true # to disable highlight.js
         # disableFingerprinting: true
-        favicon: "<link / abs url>"
-        favicon16x16: "<link / abs url>"
-        favicon32x32: "<link / abs url>"
-        apple_touch_icon: "<link / abs url>"
-        safari_pinned_tab: "<link / abs url>"
+        favicon: "https://techwizerd.com/img/favicon.ico"
+        favicon16x16: "https://techwizerd.com/img/favicon.ico"
+        favicon32x32: "https://techwizerd.com/img/favicon.ico"
+        apple_touch_icon: "https://techwizerd.com/img/favicon.ico"
+        safari_pinned_tab: "https://techwizerd.com/img/favicon.ico"
 
     label:
-        text: "Home"
+        text: "techwizerd.com"
         icon: /img/logo.png
         iconHeight: 35
 
     # profile-mode
     profileMode:
         enabled: false # needs to be explicitly set
-        title: ExampleSite
-        subtitle: "This is subtitle"
+        title: techwizerd.com
+        subtitle: "Full Stack Developer"
         imageUrl: "<img location>"
         imageWidth: 120
         imageHeight: 120
@@ -66,15 +66,19 @@ params:
     # home-info mode
     homeInfoParams:
         Title: "Hi there \U0001F44B"
-        Content: Welcome to my blog
+        Content: I blog about computer programming and other interests - React, Python, Django
 
     socialIcons:
         - name: twitter
-          url: "https://twitter.com/"
+          url: "https://twitter.com/avoajacharles"
         - name: stackoverflow
-          url: "https://stackoverflow.com"
+          url: "https://stackoverflow.com/users/7242585/mr-charles"
         - name: github
-          url: "https://github.com/"
+          url: "https://github.com/avoajaugochukwu/"
+        - name: linkedin
+          url: "https://www.linkedin.com/in/avoajaugochukwu/"
+        - name: email
+          url: "mailto:avoajacharles@gmail.com"
 
     analytics:
         google:
@@ -105,10 +109,14 @@ menu:
           name: tags
           url: /tags/
           weight: 20
-        - identifier: example
-          name: example.org
-          url: https://example.org
-          weight: 30
+        # - identifier: apdevv.com
+        #   name: apdevv.com
+        #   url: https://apdevv.com
+        #   weight: 30
+        - identifier: search
+          name: search
+          url: /search/
+          weight: 20
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 # pygmentsUseClasses: true
 # markup:
@@ -118,3 +126,10 @@ menu:
 #         guessSyntax: true
 #         lineNos: true
 #         style: monokai
+
+# Added by me: Ugochukwu Avoaja
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON # is necessary

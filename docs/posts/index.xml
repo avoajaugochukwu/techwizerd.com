@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on ExampleSite</title>
+    <link>https://techwizerd.com/posts/</link>
+    <description>Recent content in Posts on ExampleSite</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 18 Feb 2021 14:35:25 +0100</lastBuildDate><atom:link href="https://techwizerd.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to create Hugo blog on Github Pages Using Windows</title>
+      <link>https://techwizerd.com/how-to-create-hugo-blog-on-github-pages-using-windows/</link>
+      <pubDate>Thu, 18 Feb 2021 14:35:25 +0100</pubDate>
+      
+      <guid>https://techwizerd.com/how-to-create-hugo-blog-on-github-pages-using-windows/</guid>
+      <description>Hugo blog is becoming one of the most popular static site generators.
+The first time I used it, I was blown away by how easy it was to set up a blog on my local machine. It is also very easy to publish your hugo site to github Pages for free.
+In this tutorial, I am going to show you how to set up your hugo blog on Github Pages. We would be using this theme .</description>
+    </item>
+    
+  </channel>
+</rss>

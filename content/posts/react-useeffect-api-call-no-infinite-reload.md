@@ -1,6 +1,7 @@
 ---
 title: "How to use React useEffect to post data and refresh without infinite callback"
 url: "posts/how-to-use-react-use-effect-to-post-data-and-refresh-without-infinite-callback"
+author: "Charles Avoaja"
 date: 2021-02-24T06:36:48+01:00
 categories:
   - React

@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Techwizerd - Full Stack Developer - React, Python, Django</title>
+    <title> Blog Archive on Techwizerd - Full Stack Developer - React, Python, Django</title>
     <link>https://techwizerd.com/posts/</link>
-    <description>Recent content in Posts on Techwizerd - Full Stack Developer - React, Python, Django</description>
+    <description>Recent content in  Blog Archive on Techwizerd - Full Stack Developer - React, Python, Django</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 18 Feb 2021 14:35:25 +0100</lastBuildDate><atom:link href="https://techwizerd.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 24 Feb 2021 06:36:48 +0100</lastBuildDate><atom:link href="https://techwizerd.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to use React useEffect to post data and refresh without infinite callback</title>
+      <link>https://techwizerd.com/posts/react-useeffect-api-call-no-infinite-reload/</link>
+      <pubDate>Wed, 24 Feb 2021 06:36:48 +0100</pubDate>
+      
+      <guid>https://techwizerd.com/posts/react-useeffect-api-call-no-infinite-reload/</guid>
+      <description>Introduction This tutorial will walk you through updating your page DOM after an API call, using react hooks.
+In our example, we would be adding to a list of posts. After a new item is added to the list, we want to trigger react hooks to re-run our fetch API to update the list the user can see. The default behaviour of react useEffect() can lead to an infinite loop, although it is a working solution.</description>
+    </item>
+    
     <item>
       <title>How to create Hugo blog on Github Pages Using Windows</title>
       <link>https://techwizerd.com/posts/how-to-create-hugo-blog-on-github-pages-using-windows/</link>
@@ -13,8 +23,8 @@
       
       <guid>https://techwizerd.com/posts/how-to-create-hugo-blog-on-github-pages-using-windows/</guid>
       <description>Hugo blog is becoming one of the most popular static site generators.
-The first time I used it, I was blown away by how easy it was to set up a blog on my local machine. It is also very easy to publish your hugo site to github Pages for free.
-In this tutorial, I am going to show you how to set up your hugo blog on Github Pages. We would be using this theme .</description>
+The first time I used it, it blew me away by how easy it was to set up a blog on my local machine. It is also very easy to publish your hugo site to Github Pages for free.
+In this tutorial, I am going to show you how to set up your Hugo blog on Github Pages. We would be using this theme.</description>
     </item>
     
   </channel>

@@ -3,12 +3,52 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://techwizerd.com/categories/blogging/</loc>
-    <lastmod>2021-02-18T14:35:25+01:00</lastmod>
+    <loc>https://techwizerd.com/posts/</loc>
+    <lastmod>2021-02-24T06:36:48+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://techwizerd.com/categories/axios/</loc>
+    <lastmod>2021-02-24T06:36:48+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://techwizerd.com/categories/</loc>
+    <lastmod>2021-02-24T06:36:48+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://techwizerd.com/posts/react-useeffect-api-call-no-infinite-reload/</loc>
+    <lastmod>2021-02-24T06:36:48+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://techwizerd.com/categories/intermediate-react/</loc>
+    <lastmod>2021-02-24T06:36:48+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://techwizerd.com/categories/react/</loc>
+    <lastmod>2021-02-24T06:36:48+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://techwizerd.com/categories/react-hooks/</loc>
+    <lastmod>2021-02-24T06:36:48+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://techwizerd.com/</loc>
+    <lastmod>2021-02-24T06:36:48+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://techwizerd.com/categories/useeffect/</loc>
+    <lastmod>2021-02-24T06:36:48+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://techwizerd.com/categories/blogging/</loc>
     <lastmod>2021-02-18T14:35:25+01:00</lastmod>
   </url>
   
@@ -29,16 +69,6 @@
   
   <url>
     <loc>https://techwizerd.com/categories/hugo/</loc>
-    <lastmod>2021-02-18T14:35:25+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://techwizerd.com/posts/</loc>
-    <lastmod>2021-02-18T14:35:25+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://techwizerd.com/</loc>
     <lastmod>2021-02-18T14:35:25+01:00</lastmod>
   </url>
   

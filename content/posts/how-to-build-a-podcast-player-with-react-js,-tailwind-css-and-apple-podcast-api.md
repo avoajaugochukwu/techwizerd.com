@@ -12,7 +12,8 @@ draft: false
 
 ### This article will cover all the steps and code needed to build a podcast player with React, TailwindCSS, and Apples' podcast API. It is a long one broken into five parts. I hope you are ready to dive in.
 
-![app_sample_home_page](/img/rpp_new.png)
+![app_sample_home_page](/img/rpp_tutorial/podcast_player.gif)
+![app_sample_home_page](/img/podcast_player.gif)
 
 ## Introduction
 
@@ -27,19 +28,18 @@ This tutorial is for intermediate developers, developers who have built a few ap
 
 ### What you will learn
 
-This tutorial we would teach you:
+In this tutorial you will learn:
 
-1. API calls with axios
+1. API calls with Axios
 2. Debounce
 3. React Hooks
 4. Responsive web design with Tailwind CSS
 5. Reusable React component
-6. Using 'read more' button to hide/show text
+6. Using the 'read more' button to hide/show text
 7. Using JavaScript Audio API to play sounds in the browser
 8. Apple API
 9. Infinite scroll, for lazy loading
 10. App layout with a fixed sidebar that does not change between renders, improving performance
-11. Postman - Calling Apple API from the browser downloads a file that is hard to analyse, but postman has a "JSON" feature
+11. Postman - Calling Apple API from the browser downloads a file that is hard to analyze, but postman has a "JSON" feature
 12. Reverse Proxy to prevent CORS Error
-13. Optimization of the App
-14. React-Redux
+13. React-Redux

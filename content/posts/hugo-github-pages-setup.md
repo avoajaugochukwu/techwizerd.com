@@ -40,7 +40,7 @@ hugo new site test.com -f yml
 This code creates a new site called *test* and forces it to use *yml* format for its' config file, which is more readable than *toml* files. 
 It also creates a folder called test that will house all our Hugo resources.
 
-You should see a message like so:
+You should see a message like:
 
 ```
 Congratulations! Your new Hugo site is created in C:\computer\Hugo\test.com
@@ -69,11 +69,11 @@ git init
 git submodule add https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod --depth=1
 ```
 
-This code changes the directory to the test.com.
+This code changes the directory to test.com.
 It initializes git in the current folder.
 And finally pulls the PaperMod theme from Github into the ```themes/PaperMod``` folder.
 
-Your directory should now look like this.
+Your directory should now look like this:
 
 ![test.com directory](/img/test.com_directory.png)
 
@@ -84,7 +84,7 @@ Then run this in your command prompt.
 ```
 hugo server
 ```
-This will start the Hugo server. Visit the ```localhost``` URL where Hugo says the site is running. And you should see this.
+This will start the Hugo server. It will show you the ```localhost``` URL to visit where Hugo says the site is running. And you should see this:
 
 ![test.com default page](/img/test.com_default_page.png)
 
@@ -123,13 +123,20 @@ The *-D* flag, tells the server to also show drafts, because our html post has d
 
 > Note that drafts will not be added to the site when we build it later.
 
-You should see that our first post.
+You should see the first post.
 
 ![test.com draft post](/img/test.com_draft_post.png)
 
+### Step 5: Build Hugo site
+Before you deploy the site, after making changes. You have to build it. This will convert the markdown files into HTMKL and also creat indexes for the categories. We achieve this by running:
+
+```hugo```
+
+In the the base folder of the Hugo website.
+
 At this point we are ready to move our blog to Github Pages.
 
-### Step 5: Set up repository
+### Step 6: Set up repository
 
 Firstly, in the *config.yml* file, add this line ```publishDir: "docs"``` after ```theme: PaperMod```. This tells Hugo to publish our 
 site into the directory called *docs*, when we build.

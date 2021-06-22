@@ -2,7 +2,7 @@
 title: "How to create Hugo blog on Github Pages Using Windows"
 date: 2021-02-18T14:35:25+01:00
 url: "posts/how-to-create-hugo-blog-on-github-pages-using-windows"
-author: "Charles Avoaja"
+author: "Ugochukwu Avoaja"
 categories:
   - Hugo
   - Github

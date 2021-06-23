@@ -5,43 +5,7 @@
     <link>https://techwizerd.com/categories/</link>
     <description>Recent content in Categories on Techwizerd - Full Stack Developer - React, Python, Django</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 15 Jun 2021 20:25:06 +0100</lastBuildDate><atom:link href="https://techwizerd.com/categories/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>API</title>
-      <link>https://techwizerd.com/categories/api/</link>
-      <pubDate>Tue, 15 Jun 2021 20:25:06 +0100</pubDate>
-      
-      <guid>https://techwizerd.com/categories/api/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>React</title>
-      <link>https://techwizerd.com/categories/react/</link>
-      <pubDate>Tue, 15 Jun 2021 20:25:06 +0100</pubDate>
-      
-      <guid>https://techwizerd.com/categories/react/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>React-Redux</title>
-      <link>https://techwizerd.com/categories/react-redux/</link>
-      <pubDate>Tue, 15 Jun 2021 20:25:06 +0100</pubDate>
-      
-      <guid>https://techwizerd.com/categories/react-redux/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>TailwindCSS</title>
-      <link>https://techwizerd.com/categories/tailwindcss/</link>
-      <pubDate>Tue, 15 Jun 2021 20:25:06 +0100</pubDate>
-      
-      <guid>https://techwizerd.com/categories/tailwindcss/</guid>
-      <description></description>
-    </item>
-    
+    <lastBuildDate>Wed, 24 Feb 2021 06:36:48 +0100</lastBuildDate><atom:link href="https://techwizerd.com/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Axios</title>
       <link>https://techwizerd.com/categories/axios/</link>
@@ -57,6 +21,15 @@
       <pubDate>Wed, 24 Feb 2021 06:36:48 +0100</pubDate>
       
       <guid>https://techwizerd.com/categories/intermediate-react/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>React</title>
+      <link>https://techwizerd.com/categories/react/</link>
+      <pubDate>Wed, 24 Feb 2021 06:36:48 +0100</pubDate>
+      
+      <guid>https://techwizerd.com/categories/react/</guid>
       <description></description>
     </item>
     

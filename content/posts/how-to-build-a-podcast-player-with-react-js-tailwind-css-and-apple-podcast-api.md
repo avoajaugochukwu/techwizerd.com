@@ -7,7 +7,7 @@ categories:
   - TailwindCSS
   - API
   - React-Redux
-draft: false
+draft: true
 ---
 
 ### This article will cover all the steps and code needed to build a podcast player with React, TailwindCSS, and Apples' podcast API. It is a long one broken into five parts. I hope you are ready to dive in.

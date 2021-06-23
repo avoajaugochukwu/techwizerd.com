@@ -12,7 +12,7 @@
       <pubDate>Tue, 15 Jun 2021 20:25:06 +0100</pubDate>
       
       <guid>https://techwizerd.com/posts/how-to-build-a-podcast-player-with-react-js-tailwind-css-and-apple-podcast-api/</guid>
-      <description>This article will cover all the steps and code needed to build a podcast player with React, TailwindCSS, and Apples&#39; podcast API. It is a long one broken into five parts. I hope you are ready to dive in. Introduction React is a user interface framework developed by Facebook. It allows developers to build intuitive websites with rich user interactivity using HTML-like syntax. It also allows modularity, which means we can break code down into manageable modules that makes maintenance of your website easy.</description>
+      <description>This article will cover all the steps and code needed to build a podcast player with React, TailwindCSS, and Apples&#39; podcast API. It is a long one broken into five parts. I hope you are ready to dive in. Introduction React is a user interface framework developed by Facebook. It allows developers to build intuitive websites with rich user interactivity using HTML-like syntax. It also allows modularity, which means you can break code down into manageable modules that makes maintenance of your website easy.</description>
     </item>
     
   </channel>

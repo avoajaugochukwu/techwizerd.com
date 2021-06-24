@@ -407,7 +407,7 @@ But putting the  ``Switch`` in a separate file is cleaner.
 > Run ``yarn start`` in the command line. To see the skeletal representation of the application.
 
 
-### Checkpoint 1
+### 💡 Checkpoint 1
 
 > 🔗 If you encounter any errors, you can find the source code for this first part on [GitHub](https://github.com/avoajaugochukwu/podcast_player_tutorial/tree/master/Checkpoint_01). You can crosscheck with your work to find where you missed something.
 

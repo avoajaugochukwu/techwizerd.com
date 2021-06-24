@@ -397,7 +397,7 @@ If ``podcasts`` is set, it displays the section container, which calls each of t
 
 If ``podcast`` is not set, that is undefined. It displays the loading spinner with ``<loading />``.
 
-### Checkpoint 2
+### 💡 Checkpoint 2
 
 If you have followed correctly. When you run ``yarn start``. You should see a homepage with a list of podcasts. But when you click on them, they don't show any details. But nothing breaks in the application.
 

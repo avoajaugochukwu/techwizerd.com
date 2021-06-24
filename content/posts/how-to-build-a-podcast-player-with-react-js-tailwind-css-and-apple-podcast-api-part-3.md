@@ -372,8 +372,8 @@ Then:
 
 ```jsx
 else {
-      audio.play()
-			dispatch(play(episode))
+    audio.play()
+    dispatch(play(episode))
 }
 ```
 
@@ -388,6 +388,7 @@ In the return statement of the ``App`` component. You pass the function down as 
 <FooterPlayer handlePause={handlePause} handlePlay={handlePlay} />
 ```
 
+### 💡 Checkpoint 3
 If you have come this far. You should have an empty ``currentTrack`` in your Redux Chrome Extension.
 
 > 🔗 If you don't have the extension. Download it [for Chrome here](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?hl=en).

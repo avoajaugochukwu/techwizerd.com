@@ -585,7 +585,7 @@ The ``collectionId`` will be used to query the API to get details about the podc
 
 > 🔗 You can also find all the code for the fourth [checkpoint here](https://github.com/avoajaugochukwu/podcast_player_tutorial/tree/master/Checkpoint_04). Copy the parts that are missing from your project.
 
-> See a live version of the application so far. Click on 'Open Sandbox' to see the full code. Because the SideBar is not showing in the version below. Because the ```<iframe>``` is not wide enough to simulate a widers width screen
+> See a live version of the application so far. Click on 'Open Sandbox' to see the full code. Because the SideBar is not showing in the version below. Because the ```<iframe>``` is not wide enough to simulate a wider width screen.
 
 {{< myiframe "https://codesandbox.io/embed/rppcheckpoint04-b9cyt?fontsize=14&hidenavigation=1&theme=dark&previewwindow=browser" >}}
 

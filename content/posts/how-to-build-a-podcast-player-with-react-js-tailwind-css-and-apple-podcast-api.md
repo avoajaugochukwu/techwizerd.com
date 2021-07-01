@@ -411,7 +411,7 @@ But putting the  ``Switch`` in a separate file is cleaner.
 
 > 🔗 If you encounter any errors, you can find the source code for this first part on [GitHub](https://github.com/avoajaugochukwu/podcast_player_tutorial/tree/master/Checkpoint_01). You can crosscheck with your work to find where you missed something.
 
-> See a live version of the application so far. Click on 'Open Sandbox' to see the full code. Because the SideBar is not showing in the version below. Because the ```<iframe>``` is not wide enough to simulate a widers width screen
+> See a live version of the application so far. Click on 'Open Sandbox' to see the full code. Because the SideBar is not showing in the version below. Because the ```<iframe>``` is not wide enough to simulate a wider width screen.
 
 
 {{< myiframe "https://codesandbox.io/embed/rppcheckpoint01-92im8?fontsize=14&hidenavigation=1&theme=dark&previewwindow=browser" >}}

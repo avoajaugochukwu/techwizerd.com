@@ -9,7 +9,7 @@ categories:
   - React-Redux
   - Axios
   - React Hooks
-draft: true
+draft: false
 ---
 
 ## Building the Podcast Details Screen

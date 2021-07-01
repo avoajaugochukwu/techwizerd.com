@@ -9,7 +9,7 @@ categories:
   - React-Redux
   - Axios
   - React Hooks
-draft: true
+draft: false
 ---
 
 ## Add footer player and build the search functionality

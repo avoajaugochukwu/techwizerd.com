@@ -9,7 +9,7 @@ categories:
   - React-Redux
   - Axios
   - React Hooks
-draft: true
+draft: false
 ---
 
 ## Setting up the React-Redux store to handle playing audio

@@ -5,7 +5,60 @@
     <link>https://techwizerd.com/categories/axios/</link>
     <description>Recent content in Axios on Techwizerd - Full Stack Developer - React, Python, Django</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 24 Feb 2021 06:36:48 +0100</lastBuildDate><atom:link href="https://techwizerd.com/categories/axios/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 24 Jun 2021 14:13:12 +0100</lastBuildDate><atom:link href="https://techwizerd.com/categories/axios/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Build a Podcast Player With React Js, Tailwind Css and Apple Podcast API</title>
+      <link>https://techwizerd.com/posts/how-to-build-a-podcast-player-with-react-js-tailwind-css-and-apple-podcast-api/</link>
+      <pubDate>Tue, 15 Jun 2021 20:25:06 +0100</pubDate>
+      
+      <guid>https://techwizerd.com/posts/how-to-build-a-podcast-player-with-react-js-tailwind-css-and-apple-podcast-api/</guid>
+      <description>This article will cover all the steps and code needed to build a podcast player with React, TailwindCSS, and Apples&#39; podcast API. It is a long one broken into five parts. I hope you are ready to dive in. Live code demo on Code Sand Box
+Introduction React is a user interface framework developed by Facebook. It allows developers to build intuitive websites with rich user interactivity using HTML-like syntax. It also allows modularity, which means you can break code down into manageable modules that makes maintenance of your website or application easy to maintain.</description>
+    </item>
+    
+    <item>
+      <title>How to Build a Podcast Player With React Js Tailwind Css and Apple Podcast Api Part 5</title>
+      <link>https://techwizerd.com/posts/how-to-build-a-podcast-player-with-react-js-tailwind-css-and-apple-podcast-api-part-5/</link>
+      <pubDate>Thu, 24 Jun 2021 14:13:12 +0100</pubDate>
+      
+      <guid>https://techwizerd.com/posts/how-to-build-a-podcast-player-with-react-js-tailwind-css-and-apple-podcast-api-part-5/</guid>
+      <description>Add footer player and build the search functionality Add footer player The footer player will allow us to navigate through the application and keep the ability to pause or play any episode. When the application is first loaded, it will be hidden. And only appear when the user clicks play on any episode.
+Other parts of the tutorial 📘 How to Build a Podcast Player With React Js part 1</description>
+    </item>
+    
+    <item>
+      <title>How to Build a Podcast Player With React Js Tailwind Css and Apple Podcast Api Part 4</title>
+      <link>https://techwizerd.com/posts/how-to-build-a-podcast-player-with-react-js-tailwind-css-and-apple-podcast-api-part-4/</link>
+      <pubDate>Thu, 24 Jun 2021 13:08:05 +0100</pubDate>
+      
+      <guid>https://techwizerd.com/posts/how-to-build-a-podcast-player-with-react-js-tailwind-css-and-apple-podcast-api-part-4/</guid>
+      <description>Building the Podcast Details Screen In this part, we would go back to the PodcastDetailsScreen component to put the finishing touches on it. In the first part, we created the PodcastDetailsScreen and added a placeholder text to test it.
+The PodcastDetailsScreen component displays the podcast details screen, which has more details about podcasts and their episodes with buttons for users to play/pause each episode.
+The PodcastDetailsScreen component has a lot of children components&amp;hellip; and even grandchildren components.</description>
+    </item>
+    
+    <item>
+      <title>How to Build a Podcast Player With React Js Tailwind Css and Apple Podcast Api Part 3</title>
+      <link>https://techwizerd.com/posts/how-to-build-a-podcast-player-with-react-js-tailwind-css-and-apple-podcast-api-part-3/</link>
+      <pubDate>Wed, 23 Jun 2021 16:29:49 +0100</pubDate>
+      
+      <guid>https://techwizerd.com/posts/how-to-build-a-podcast-player-with-react-js-tailwind-css-and-apple-podcast-api-part-3/</guid>
+      <description>Setting up the React-Redux store to handle playing audio In this section, we would implement the react-redux state management that handles our currently playing podcast. And allows users to visit other pages without stopping the music.
+This means that the playing audio will be attached to a component that is rendered throughout the entire application. The App component is the best component that fits this bill in our application. Because all other components are its children in one way other.</description>
+    </item>
+    
+    <item>
+      <title>How to Build a Podcast Player With React Js Tailwind Css and Apple Podcast Api Part 2</title>
+      <link>https://techwizerd.com/posts/how-to-build-a-podcast-player-with-react-js-tailwind-css-and-apple-podcast-api-part-2/</link>
+      <pubDate>Wed, 23 Jun 2021 10:03:28 +0100</pubDate>
+      
+      <guid>https://techwizerd.com/posts/how-to-build-a-podcast-player-with-react-js-tailwind-css-and-apple-podcast-api-part-2/</guid>
+      <description>Building the homepage Now we would focus on the homepage.
+Before tackling the homepage, you need to provide the dependencies and files that the homepage needs because the homepage will be the first time, we are interacting with Apples&#39; API.
+The following will be done:
+ Install axios Create a loading spinner Spin up your own reverse proxy server Create URL constants in a single file, to easily manage our URLs  Other parts of the tutorial 📘 How to Build a Podcast Player With React Js part 1</description>
+    </item>
+    
     <item>
       <title>How to use React useEffect to post data and refresh without infinite callback</title>
       <link>https://techwizerd.com/posts/how-to-use-react-use-effect-to-post-data-and-refresh-without-infinite-callback/</link>

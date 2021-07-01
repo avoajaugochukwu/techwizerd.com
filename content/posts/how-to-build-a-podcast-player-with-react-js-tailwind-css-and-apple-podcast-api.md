@@ -14,15 +14,28 @@ draft: true
 
 ### This article will cover all the steps and code needed to build a podcast player with React, TailwindCSS, and Apples' podcast API. It is a long one broken into five parts. I hope you are ready to dive in.
 
+
+
 ![app_sample_home_page](/img/rpp_tutorial/podcast_player.gif)
 
 ## Introduction
 
-React is a user interface framework developed by Facebook. It allows developers to build intuitive websites with rich user interactivity using HTML-like syntax. It also allows modularity, which means you can break code down into manageable modules that makes maintenance of your website easy.
+React is a user interface framework developed by Facebook. It allows developers to build intuitive websites with rich user interactivity using HTML-like syntax. It also allows modularity, which means you can break code down into manageable modules that makes maintenance of your website or application easy to maintain.
 
  In this tutorial, you are going to build a podcast application using React and Apple Podcast API. The application will allow users to browse through all the podcasts available on Apple. When users visit our deployed site, they can choose to listen to the top podcast of the day or use the search functionality that you will develop to search for any podcast of their choice available on Apple Podcast. 
 
 I chose Apple API because it offers a free API with few limitations. While experimenting with the API, I didn't hit the APIs rate limit despite some heavy reloading during the application development. I found that other podcast APIs required creating an account, and they had limited access to their free plans. Meanwhile, with Apple API, you don't need to log in or provide any details, the limits are generous, and no token is required to send requests.
+
+### Other parts of the tutorial
+📘 [How to Build a Podcast Player With React Js part 1](../how-to-build-a-podcast-player-with-react-js-tailwind-css-and-apple-podcast-api/)
+
+📘 [How to Build a Podcast Player With React Js part 2](../how-to-build-a-podcast-player-with-react-js-tailwind-css-and-apple-podcast-api-part-2/)
+
+📘 [How to Build a Podcast Player With React Js part 3](../how-to-build-a-podcast-player-with-react-js-tailwind-css-and-apple-podcast-api-part-3/)
+
+📘 [How to Build a Podcast Player With React Js part 4](../how-to-build-a-podcast-player-with-react-js-tailwind-css-and-apple-podcast-api-part-4/)
+
+📘 [How to Build a Podcast Player With React Js part 5](../how-to-build-a-podcast-player-with-react-js-tailwind-css-and-apple-podcast-api-part-5/)
 
 ### Who this tutorial is for
 This tutorial is for intermediate developers, developers who have built a few apps with React and are looking for a comprehensive introduction to some advanced features like debounce, lazy loading, redux (state management), routing, and loading pages dynamically. Newbies can follow along but note that we glazed over details in some parts, including the CSS.
@@ -56,11 +69,11 @@ In this tutorial you will learn:
 ## Our approach
 ![workworkwork](/img/rpp_tutorial/justin-lim-tloFnD-7EpI-unsplash.jpg)
 
-I will start by creating the structure for the major parts of the project. This will help you focus on functionality down the line. After setting up the project files and folders, I will create the skeleton of the application. Then move on to building the functionalities.
+I will start by creating the structure for the significant parts of the project. It will help you focus on functionality down the line. After setting up the project files and folders, I will create the skeleton of the application. Then move on to building the functionalities.
 
-When making changes to files, I will provide the entire code so you don't have to worry about the changes and focus on the tutorial.
+When making changes to files, I will provide the entire code, so you don’t have to worry about the changes and focus on the tutorial.
 
-I will also create checkpoints after each part and live code through [Codesanbox](https://codesandbox.io/) (where applicable). So that you have something to compare your code to.
+I will also create checkpoints after each part, including GitHub code and live code through [Codesanbox](https://codesandbox.io/) (where applicable) so that you have something to compare your code.
 
 
 ## Setting up the React project and files
@@ -84,22 +97,22 @@ If you want more details on creating a React app, please look at [create-react-a
 
 ### TailwindCSS setup
 
-In this tutorial, I don't want to take your time to talk about installing tailwind. And because of the extra work you have to do during deployment. I will copy all the styles needed for this application. Note that tailwind generated them. Tailwind employs a tree shaking technique that only adds the CSS classes used in the application when you build the application with ``yarn build`` and ``yarn build`` runs when you deploy your application to any of the popular platforms that host React like [Heroku](https://heroku.com/), [Vercel](https://vercel.com/) or N[etlify](https://netlify.com).
+In this tutorial, I don’t want to take your time to talk about installing Tailwind. And because of the extra work you have to do during deployment. Instead, I will provide all the styles needed for this application in a CSS stylesheet. Note that tailwind generated them. Tailwind employs a tree shaking technique that only adds the CSS classes used in the application when you build the application with `yarn build.` `yarn build` runs when you deploy your application to any popular platforms that host React like [Heroku](https://heroku.com/), [Vercel](https://vercel.com/), or [Netlify](https://netlify.com/).
 
 > 🔗 If you want to install Tailwind for this tutorial, you can find [the guide](https://tailwindcss.com/docs/guides/create-react-app) here. However, it is unnecessary for this application.
 
 > 🔗 This is the [link to all the CSS](https://www.notion.so/1f7f9c1e234718062b357b72ac31ac5e) files you need for this project. Click on 'raw' and copy the CSS and overwrite the content of the App.css file in the root folder of the application.
 
-> 🔗 You can also get the CSS from the [GitHub repo of the first checkpoint](https://github.com/avoajaugochukwu/podcast_player_tutorial/blob/master/Checkpoint_01/src/App.css). Copy the entire code into the App.css file in the root folder of the application.
+> 🔗 You can also get the CSS from the [GitHub repo of the first checkpoint](https://github.com/avoajaugochukwu/podcast_player_tutorial/blob/master/Checkpoint_01/src/App.css). Then copy the entire code into the App.css file in the root folder of the application.
 
 ### Setup pages or screens
 
-React router will handle navigation. React router is a module for React that allows you to navigate our application by mapping URLs to components. It can also handle dynamic URLs, as you would see later.
+React router will handle navigation. React router is a module for React that allows you to navigate our application by mapping URLs to components. It can also take dynamic URLs, as you would see later.
 
 This is the layout of the application:
-![workworkwork](/img/rpp_tutorial/react_podcast_player_layout.png)
+![react_podcast_player_layout](/img/rpp_tutorial/react_podcast_player_layout.png)
 
-The application will be designed so that the sidebar and the footer will not re-render when the page changes. That means, unlike other apps that apply the React router at the device screen level. This application will use it inside a ``div`` or container in the app. In this case, the ``div`` that represents 'Multiple Screens' in the image above. The same will apply to the 'SideBar'.
+The application will be designed so that the sidebar and the footer will not re-render when the page changes. That means, unlike other apps that apply the React router at the device screen level. Instead, this application will use it inside a `div` or container in the app. In this case, the `div` that represents ‘Multiple Screens’ in the image above. The same will apply to the ‘SideBar’.
 
 Now run:
 
@@ -415,3 +428,14 @@ But putting the  ``Switch`` in a separate file is cleaner.
 
 
 {{< myiframe "https://codesandbox.io/embed/rppcheckpoint01-92im8?fontsize=14&hidenavigation=1&theme=dark&previewwindow=browser" >}}
+
+### Other parts of the tutorial
+📘 [How to Build a Podcast Player With React Js part 1](../how-to-build-a-podcast-player-with-react-js-tailwind-css-and-apple-podcast-api/)
+
+📘 [How to Build a Podcast Player With React Js part 2](../how-to-build-a-podcast-player-with-react-js-tailwind-css-and-apple-podcast-api-part-2/)
+
+📘 [How to Build a Podcast Player With React Js part 3](../how-to-build-a-podcast-player-with-react-js-tailwind-css-and-apple-podcast-api-part-3/)
+
+📘 [How to Build a Podcast Player With React Js part 4](../how-to-build-a-podcast-player-with-react-js-tailwind-css-and-apple-podcast-api-part-4/)
+
+📘 [How to Build a Podcast Player With React Js part 5](../how-to-build-a-podcast-player-with-react-js-tailwind-css-and-apple-podcast-api-part-5/)

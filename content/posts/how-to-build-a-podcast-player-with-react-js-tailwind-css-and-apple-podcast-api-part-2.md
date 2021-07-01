@@ -25,6 +25,17 @@ The following will be done:
 - Spin up your own reverse proxy server
 - Create URL constants in a single file, to easily manage our URLs
 
+### Other parts of the tutorial
+📘 [How to Build a Podcast Player With React Js part 1](../how-to-build-a-podcast-player-with-react-js-tailwind-css-and-apple-podcast-api/)
+
+📘 [How to Build a Podcast Player With React Js part 2](../how-to-build-a-podcast-player-with-react-js-tailwind-css-and-apple-podcast-api-part-2/)
+
+📘 [How to Build a Podcast Player With React Js part 3](../how-to-build-a-podcast-player-with-react-js-tailwind-css-and-apple-podcast-api-part-3/)
+
+📘 [How to Build a Podcast Player With React Js part 4](../how-to-build-a-podcast-player-with-react-js-tailwind-css-and-apple-podcast-api-part-4/)
+
+📘 [How to Build a Podcast Player With React Js part 5](../how-to-build-a-podcast-player-with-react-js-tailwind-css-and-apple-podcast-api-part-5/)
+
 ### Install axios
 
 From the root of your project. Run:
@@ -409,7 +420,16 @@ If you have followed correctly. When you run ``yarn start``. You should see a ho
 {{< myiframe "https://codesandbox.io/embed/rppcheckpoint02-5gf3y?fontsize=14&hidenavigation=1&theme=dark&previewwindow=browser" >}}
 
 
+### Other parts of the tutorial
+📘 [How to Build a Podcast Player With React Js part 1](../how-to-build-a-podcast-player-with-react-js-tailwind-css-and-apple-podcast-api/)
 
+📘 [How to Build a Podcast Player With React Js part 2](../how-to-build-a-podcast-player-with-react-js-tailwind-css-and-apple-podcast-api-part-2/)
+
+📘 [How to Build a Podcast Player With React Js part 3](../how-to-build-a-podcast-player-with-react-js-tailwind-css-and-apple-podcast-api-part-3/)
+
+📘 [How to Build a Podcast Player With React Js part 4](../how-to-build-a-podcast-player-with-react-js-tailwind-css-and-apple-podcast-api-part-4/)
+
+📘 [How to Build a Podcast Player With React Js part 5](../how-to-build-a-podcast-player-with-react-js-tailwind-css-and-apple-podcast-api-part-5/)
 
 
 

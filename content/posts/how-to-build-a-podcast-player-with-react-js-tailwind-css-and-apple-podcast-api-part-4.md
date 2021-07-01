@@ -35,6 +35,17 @@ To implement the podcast details screen, do the following
 - Create a ``LoadMore`` icon
 - Update ``PodcastDetailsScreen`` component
 
+### Other parts of the tutorial
+📘 [How to Build a Podcast Player With React Js part 1](../how-to-build-a-podcast-player-with-react-js-tailwind-css-and-apple-podcast-api/)
+
+📘 [How to Build a Podcast Player With React Js part 2](../how-to-build-a-podcast-player-with-react-js-tailwind-css-and-apple-podcast-api-part-2/)
+
+📘 [How to Build a Podcast Player With React Js part 3](../how-to-build-a-podcast-player-with-react-js-tailwind-css-and-apple-podcast-api-part-3/)
+
+📘 [How to Build a Podcast Player With React Js part 4](../how-to-build-a-podcast-player-with-react-js-tailwind-css-and-apple-podcast-api-part-4/)
+
+📘 [How to Build a Podcast Player With React Js part 5](../how-to-build-a-podcast-player-with-react-js-tailwind-css-and-apple-podcast-api-part-5/)
+
 ### Install ``react-infinite-scroll-component`` and ``moment``
 
 Run:
@@ -590,8 +601,13 @@ The ``collectionId`` will be used to query the API to get details about the podc
 {{< myiframe "https://codesandbox.io/embed/rppcheckpoint04-b9cyt?fontsize=14&hidenavigation=1&theme=dark&previewwindow=browser" >}}
 
 
+### Other parts of the tutorial
+📘 [How to Build a Podcast Player With React Js part 1](../how-to-build-a-podcast-player-with-react-js-tailwind-css-and-apple-podcast-api/)
 
+📘 [How to Build a Podcast Player With React Js part 2](../how-to-build-a-podcast-player-with-react-js-tailwind-css-and-apple-podcast-api-part-2/)
 
+📘 [How to Build a Podcast Player With React Js part 3](../how-to-build-a-podcast-player-with-react-js-tailwind-css-and-apple-podcast-api-part-3/)
 
+📘 [How to Build a Podcast Player With React Js part 4](../how-to-build-a-podcast-player-with-react-js-tailwind-css-and-apple-podcast-api-part-4/)
 
-
+📘 [How to Build a Podcast Player With React Js part 5](../how-to-build-a-podcast-player-with-react-js-tailwind-css-and-apple-podcast-api-part-5/)

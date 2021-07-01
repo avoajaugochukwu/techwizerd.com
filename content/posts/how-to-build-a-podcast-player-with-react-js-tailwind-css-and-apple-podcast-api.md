@@ -18,6 +18,9 @@ draft: true
 
 ![app_sample_home_page](/img/rpp_tutorial/podcast_player.gif)
 
+
+[Live code demo on Code Sand Box](https://codesandbox.io/s/rppcheckpoint05-3t1s2)
+
 ## Introduction
 
 React is a user interface framework developed by Facebook. It allows developers to build intuitive websites with rich user interactivity using HTML-like syntax. It also allows modularity, which means you can break code down into manageable modules that makes maintenance of your website or application easy to maintain.

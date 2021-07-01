@@ -1,14 +1,36 @@
 
 .post-content blockquote {
   background-color: #eff2fb;
+  background-color: #193fb4;
+  color: #e3e3f8;
   padding: 0px;
 
   padding: 10px;
 }
 
+.post-content blockquote a {
+  color: #e3e3f8;
+}
+.post-content blockquote a:hover {
+  color: #fff;
+}
 /* Style the link in a blockquote */
 
 
-td> pre>code>span[style*="display:block"][style] {
-  background: #0d1145 !important;
+/* td> pre>code>span[style*="display:block"][style] {
+  background: #0c1ae7 !important;
+} */
+
+/* Style for code block */
+.post-content .highlight:not(table), .post-content pre {
+  margin: 10px auto;
+  background: #010325 !important;
+  border-radius: 0;
+}
+
+p> code {
+  background-color: #020879 !important;
+  background-color: #e3e3f8 !important;
+  border-radius: 5px !important;
+  color: #010325;
 }

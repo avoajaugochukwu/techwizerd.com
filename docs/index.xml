@@ -76,8 +76,8 @@ In our example, we would be adding to a list of posts. After a new item is added
       
       <guid>https://techwizerd.com/posts/how-to-create-hugo-blog-on-github-pages-using-windows/</guid>
       <description>Hugo blog is becoming one of the most popular static site generators.
-The first time I used it, it blew me away by how easy it was to set up a blog on my local machine. It is also very easy to publish your hugo site to Github Pages for free.
-In this tutorial, I am going to show you how to set up your Hugo blog on Github Pages. We would be using this theme.</description>
+The first time I used it, it blew me away by how easy it was to set up a blog on my local machine. It is also effortless to publish your Hugo site to Github Pages for free.
+In this tutorial, I will show you how to set up your Hugo blog on Github Pages. We would be using this theme.</description>
     </item>
     
     <item>
